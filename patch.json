@@ -1,0 +1,14 @@
+﻿{
+    "spec":  {
+                 "template":  {
+                                  "spec":  {
+                                               "containers":  [
+                                                                  {
+                                                                      "imagePullPolicy":  "IfNotPresent",
+                                                                      "name":  "talentflow-ai"
+                                                                  }
+                                                              ]
+                                           }
+                              }
+             }
+}

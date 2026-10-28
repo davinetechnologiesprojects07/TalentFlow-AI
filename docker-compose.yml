@@ -1,0 +1,7 @@
+services:
+  talentflow-ai:
+    build: .
+    container_name: talentflow-ai
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
